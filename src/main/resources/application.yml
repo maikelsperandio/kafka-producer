@@ -1,0 +1,11 @@
+
+application:
+  params:
+    bootstrap-server: localhost:9092
+    group-id: grp-test-producer
+    client-id: producer-client
+    auto-offset-reset: earliest
+    producer-topic: online-sales
+
+server:
+  port: 8081
